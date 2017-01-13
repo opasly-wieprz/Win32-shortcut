@@ -1,7 +1,10 @@
 name:                Win32-shortcut
-version:             0.0.0
+version:             0.0.1
 synopsis:            Support for manipulating shortcuts (.lnk files) on Windows
--- description:
+description:
+  This package provides mechanism for reading and
+  writing Windows shortcuts a.k.a. shell links.
+  It uses COM library under the hood.
 license:             BSD3
 license-file:        LICENSE
 author:              Piotr Latanowicz
