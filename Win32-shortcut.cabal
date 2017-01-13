@@ -9,9 +9,9 @@ license:             BSD3
 license-file:        LICENSE
 author:              Piotr Latanowicz
 maintainer:          piotr.latanowicz@gmail.com
+category:            System
 copyright:           2017 Piotr Latanowicz
 Homepage:            https://github.com/opasly-wieprz/Win32-shortcut
-
 build-type:          Simple
 cabal-version:       >=1.10
 stability:           experimental
@@ -28,7 +28,7 @@ library
                      System.Win32.Shortcut.Internal
   hs-source-dirs:    src
   include-dirs:      include
-  build-depends:     base >= 4.9,
+  build-depends:     base >= 4.9 && < 5,
                      Win32,
                      mtl,
                      th-utilities
